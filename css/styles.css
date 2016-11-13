@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,500");
+body {
+  background-color: #3f7090;
+  font-family: "Roboto", sans-serif; }
+
+.header {
+  color: #f0f3f7;
+  font-weight: 500; }
+
+.container {
+  max-width: 769px;
+  margin: auto;
+  padding-top: 10%; }
+  @media (max-width: 769px) {
+    .container .header {
+      text-align: center; } }
+
+.amp-form {
+  background-color: #f0f3f7;
+  width: 100%;
+  border: 3px solid #8ca3c2;
+  border-radius: 7px; }
+  @media (max-width: 769px) {
+    .amp-form {
+      width: 95%;
+      margin: auto; } }
+  .amp-form #mc_embed_signup {
+    padding: 0 2em 0 2em; }
+  .amp-form input[type="text"],
+  .amp-form input[type="email"] {
+    width: 100%;
+    margin: .5em 0 1em 0;
+    padding-left: 1em;
+    height: 2.5em; }
+  .amp-form input[type="submit"] {
+    padding: 1em 2em 1em 2em;
+    color: #f0f3f7;
+    font-weight: 500;
+    background-color: #f15c5c;
+    border: 2px solid #e41f2f;
+    border-radius: 4px; }
+    .amp-form input[type="submit"]:hover {
+      background-color: #e41f2f;
+      border-color: #f15c5c; }
+
+/*# sourceMappingURL=styles.css.map */
